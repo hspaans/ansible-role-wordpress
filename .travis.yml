@@ -30,6 +30,7 @@ before_script:
   - cd ../
   - mv ansible-role-$ROLE_NAME hspaans.$ROLE_NAME
   - cd hspaans.$ROLE_NAME
+  - ansible-galaxy install hspaans.wpcli
 
 script:
   # Basic role syntax check
