@@ -1,0 +1,31 @@
+---
+galaxy_info:
+  role_name: wordpress
+  author: hspaans
+  description: WordPress is open source software you can use to create a website
+  license: MIT
+
+  issue_tracker_url: https://github.com/hspaans/ansible-role-wordpress/issues
+
+  min_ansible_version: 2.4
+  platforms:
+    - name: EL
+      versions:
+        - all
+    - name: Fedora
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+
+  galaxy_tags:
+    - web
+    - php
+    - wordpress
+
+dependencies:
+  - hspaans.wpcli
